@@ -1,13 +1,12 @@
 
-interface IProps {
-    type: "date" | "text" | "email" | "password";
-    label: string;
-}
 
 export default function CustomInput({ 
     type,
     label
-}: IProps) {
+}: {
+    type: "date" | "text" | "email" | "password";
+    label: string;
+}) {
     return (
         <div className=" w-full flex flex-col text-secondarybtn text-sm tracking-[-2%] " >
             <p >{label}</p>

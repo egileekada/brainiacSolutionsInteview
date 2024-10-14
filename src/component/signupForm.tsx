@@ -1,4 +1,4 @@
-import CustomInput from "../component/CustomInput";
+import { CustomInput } from "./";
 import { AppleBadge, Google, GoogleBadge, Logo } from "../imgs";
 
 export default function SignupForm() {
